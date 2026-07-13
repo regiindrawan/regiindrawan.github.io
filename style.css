@@ -15,7 +15,7 @@ color:#222;
 header{
 background:#0f172a;
 color:white;
-padding:70px 20px;
+padding:120px 20px;
 text-align:center;
 }
 
@@ -66,4 +66,33 @@ color:white;
 padding:30px;
 text-align:center;
 margin-top:50px;
+}
+
+.subtitle{
+    font-size:22px;
+    color:#cbd5e1;
+    margin-top:15px;
+}
+
+.description{
+    max-width:700px;
+    margin:30px auto;
+    line-height:1.8;
+    color:#dbeafe;
+    font-size:18px;
+}
+
+.buttons{
+    margin-top:40px;
+}
+
+.secondary{
+    background:transparent;
+    border:2px solid white;
+    margin-left:15px;
+}
+
+.secondary:hover{
+    background:white;
+    color:#0f172a;
 }
