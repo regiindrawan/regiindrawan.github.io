@@ -275,18 +275,36 @@ flex-wrap:wrap;
 
 .social-links a{
 
+width:50px;
+
+height:50px;
+
+border-radius:50%;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+background:rgba(255,255,255,0.08);
+
+color:white;
+
+font-size:22px;
+
 text-decoration:none;
 
-color:#cbd5e1;
-
-font-weight:bold;
-
-transition:.3s;
+transition:all .3s ease;
 
 }
 
 .social-links a:hover{
 
-color:white;
+transform:translateY(-5px);
+
+background:#2563eb;
+
+box-shadow:0 10px 20px rgba(37,99,235,.35);
 
 }
