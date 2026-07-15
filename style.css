@@ -433,3 +433,56 @@ line-height:1.8;
 color:#6b7280;
 
 }
+/* ===== Featured Projects ===== */
+
+.projects-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.project-card{
+
+background:#ffffff;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.project-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.project-card h3{
+
+font-size:24px;
+
+margin-bottom:15px;
+
+color:#0f172a;
+
+}
+
+.project-card p{
+
+line-height:1.8;
+
+color:#475569;
+
+}
