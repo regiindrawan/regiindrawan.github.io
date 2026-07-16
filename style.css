@@ -180,21 +180,17 @@ nav a:hover{
 }
 
 .about-card{
-display:flex;
-align-items:center;
-gap:40px;
+    display:flex;
+    align-items:center;
+    gap:40px;
 
-background:#fff;
-padding:40px;
+    background:#fff;
+    border-radius:22px;
+    padding:40px;
+    border:1px solid #ececec;
 
-border-radius:22px;
-border:1px solid #ececec;
-
-box-shadow:0 10px 30px rgba(15,23,42,.06);
-
-transition:all .35s ease;
-
-margin-top:40px;
+    box-shadow:0 10px 30px rgba(15,23,42,.06);
+    transition:all .35s ease;
 }
 
 .about-card:hover{
