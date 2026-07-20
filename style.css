@@ -557,3 +557,47 @@ color:#475569;
     color:#475569;
     line-height:1.7;
 }
+/* ===== PROJECT BUTTONS ===== */
+
+.project-buttons{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+.project-btn{
+    display:inline-block;
+    padding:12px 22px;
+    background:#2563eb;
+    color:#fff;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.project-btn:hover{
+    transform:translateY(-3px);
+}
+
+.secondary-btn{
+    background:#fff;
+    color:#2563eb;
+    border:2px solid #2563eb;
+}
+
+/* ===== LANGUAGES ===== */
+
+#languages .card{
+    max-width:100%;
+}
+
+#languages p{
+    margin-bottom:14px;
+    font-size:17px;
+}
+
+#languages p:last-child{
+    margin-bottom:0;
+}
