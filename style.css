@@ -676,6 +676,51 @@ footer h3{
     opacity:1;
     transform:translateY(0);
 }
+/* ===== SKILLS ===== */
+
+.skills-grid{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:15px;
+
+margin-top:40px;
+
+}
+
+.skills-grid span{
+
+background:#ffffff;
+
+padding:14px 22px;
+
+border-radius:999px;
+
+font-weight:600;
+
+color:#2563eb;
+
+border:1px solid #dbeafe;
+
+box-shadow:0 8px 20px rgba(0,0,0,.05);
+
+transition:.3s;
+
+}
+
+.skills-grid span:hover{
+
+background:#2563eb;
+
+color:white;
+
+transform:translateY(-5px);
+
+}
 /* ===== RESPONSIVE ===== */
 
 @media (max-width:768px){
