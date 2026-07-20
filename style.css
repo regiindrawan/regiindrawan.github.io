@@ -544,3 +544,16 @@ color:#475569;
     margin-bottom:8px;
     color:#475569;
 }
+
+/* ===== PROJECT FEATURES ===== */
+
+.project-features{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.project-features li{
+    margin-bottom:10px;
+    color:#475569;
+    line-height:1.7;
+}
