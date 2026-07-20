@@ -532,6 +532,7 @@ color:#475569;
     line-height:1.8;
     color:#475569;
     margin-bottom:18px;
+    text-align:justify;
 }
 .card ul{
     margin-left:22px;
@@ -718,10 +719,17 @@ header h1{
     text-align:center;
 }
 
+@media (max-width:768px){
+
 .about-text h3,
-.about-text h4,
-.about-text p{
+.about-text h4{
     text-align:center;
+}
+
+.about-text p{
+    text-align:justify;
+}
+
 }
 .experience-header{
     flex-direction:column;
