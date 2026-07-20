@@ -601,3 +601,23 @@ color:#475569;
 #languages p:last-child{
     margin-bottom:0;
 }
+/* ===== CONTACT ===== */
+
+#contact a{
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:500;
+}
+
+#contact a:hover{
+    text-decoration:underline;
+}
+
+#contact .card p{
+    margin-bottom:24px;
+    line-height:1.8;
+}
+
+#contact .card p:last-child{
+    margin-bottom:0;
+}
