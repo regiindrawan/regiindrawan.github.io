@@ -715,7 +715,7 @@ header h1{
     gap:30px;
 }
 .about-text{
-    width:100%;
+    text-align:center;
 }
 
 .about-text h3,
