@@ -856,3 +856,14 @@ header h1{
 }
 
 }
+/* ===== EXPERIENCE ICON ===== */
+
+.experience-header h3 i{
+
+color:#2563eb;
+
+margin-right:10px;
+
+font-size:22px;
+
+}
