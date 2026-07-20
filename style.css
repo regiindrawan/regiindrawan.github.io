@@ -259,11 +259,8 @@ margin-bottom:20px;
 }
 
 .about-text p{
-flex:1;
-line-height:1.8;
-
-color:#555;
-
+    line-height:1.8;
+    color:#555;
 }
 .subtitle{
     font-size:18px;
@@ -717,7 +714,15 @@ header h1{
     text-align:center;
     gap:30px;
 }
+.about-text{
+    width:100%;
+}
 
+.about-text h3,
+.about-text h4,
+.about-text p{
+    text-align:center;
+}
 .experience-header{
     flex-direction:column;
     align-items:flex-start;
