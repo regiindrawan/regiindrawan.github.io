@@ -15,13 +15,23 @@ color:#222;
 header{
 background:#0f172a;
 color:white;
-padding:120px 20px;
+
+padding:160px 20px 130px;
+
 text-align:center;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
 }
 
 header h1{
-font-size:50px;
-margin-bottom:10px;
+font-size:68px;
+font-weight:700;
+letter-spacing:-2px;
+margin-bottom:18px;
+line-height:1.1;
 }
 
 header p{
@@ -86,17 +96,19 @@ margin-top:50px;
 }
 
 .subtitle{
-    font-size:22px;
-    color:#cbd5e1;
-    margin-top:15px;
+font-size:24px;
+font-weight:500;
+color:#cbd5e1;
+margin-bottom:22px;
+letter-spacing:.5px;
 }
 
 .description{
-    max-width:700px;
-    margin:30px auto;
-    line-height:1.8;
-    color:#dbeafe;
-    font-size:18px;
+max-width:760px;
+font-size:20px;
+line-height:1.9;
+margin:0 auto 40px;
+color:#d1d5db;
 }
 
 .buttons{
