@@ -259,8 +259,11 @@ margin-bottom:20px;
 }
 
 .about-text p{
-    line-height:1.8;
-    color:#555;
+    line-height:1.9;
+    color:#4b5563;
+    text-align:left;
+    letter-spacing:0.2px;
+    font-size:17px;
 }
 .subtitle{
     font-size:18px;
@@ -726,9 +729,7 @@ header h1{
     text-align:center;
 }
 
-.about-text p{
-    text-align:justify;
-}
+
 
 }
 .experience-header{
