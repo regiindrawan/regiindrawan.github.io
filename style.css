@@ -188,7 +188,21 @@ nav a:hover{
     color:#2563eb;
 
 }
+nav a.active{
+    color:#2563eb;
+    position:relative;
+}
 
+nav a.active::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:100%;
+    height:3px;
+    background:#2563eb;
+    border-radius:999px;
+}
 .about-card{
     display:flex;
     align-items:center;
