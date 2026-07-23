@@ -48,6 +48,7 @@ color:white;
 text-decoration:none;
 border-radius:8px;
 font-weight:bold;
+transition:.3s ease;
 }
 
 section{
@@ -80,11 +81,8 @@ border:1px solid #eef2f7;
 
 }
 .card:hover{
-
-transform:translateY(-6px);
-
-box-shadow:0 20px 40px rgba(0,0,0,.12);
-
+    transform:translateY(-8px) scale(1.01);
+    box-shadow:0 25px 60px rgba(37,99,235,.15);
 }
 
 footer{
@@ -334,13 +332,9 @@ transition:all .3s ease;
 }
 
 .social-links a:hover{
-
-transform:translateY(-5px);
-
-background:#2563eb;
-
-box-shadow:0 10px 20px rgba(37,99,235,.35);
-
+    transform:translateY(-5px) scale(1.08);
+    background:#2563eb;
+    box-shadow:0 12px 25px rgba(37,99,235,.35);
 }
 .about{
 padding:100px 10%;
@@ -492,11 +486,8 @@ transition:.3s;
 }
 
 .project-card:hover{
-
-transform:translateY(-8px);
-
-box-shadow:0 20px 40px rgba(0,0,0,.15);
-
+    transform:translateY(-8px) scale(1.02);
+    box-shadow:0 25px 60px rgba(37,99,235,.15);
 }
 
 .project-card h3{
@@ -925,4 +916,8 @@ font-size:22px;
 
 .skill:last-child{
     margin-bottom:0;
+}
+.button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 25px rgba(37,99,235,.30);
 }
