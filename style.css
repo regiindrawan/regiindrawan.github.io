@@ -982,3 +982,44 @@ font-size:22px;
     transform:translateY(-3px);
     box-shadow:0 12px 25px rgba(37,99,235,.30);
 }
+/* ===== BACK TO TOP ===== */
+
+#backToTop{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+
+    width:52px;
+    height:52px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#2563eb;
+    color:white;
+
+    font-size:20px;
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(37,99,235,.35);
+
+    opacity:0;
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:all .35s ease;
+
+    z-index:999;
+}
+
+#backToTop:hover{
+    transform:translateY(-5px);
+    background:#1d4ed8;
+}
+
+#backToTop.show{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
