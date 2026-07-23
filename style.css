@@ -752,11 +752,8 @@ transition:.3s;
 }
 
 .stat-card:hover{
-
-transform:translateY(-8px);
-
-box-shadow:0 20px 40px rgba(0,0,0,.12);
-
+    transform:translateY(-8px) scale(1.02);
+    box-shadow:0 25px 60px rgba(37,99,235,.15);
 }
 
 .stat-card h3{
