@@ -697,6 +697,11 @@ color:#475569;
 #languages p:last-child{
     margin-bottom:0;
 }
+/* ===== SOAPCULTURE IMAGE ===== */
+
+.soapculture-image{
+    object-position:center 40%;
+}
 /* ===== CONTACT ===== */
 
 #contact a{
