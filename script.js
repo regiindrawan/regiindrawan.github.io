@@ -126,3 +126,24 @@ soapPopup.addEventListener("click", function(e){
     }
 
 });
+// ==========================
+// SOAP GALLERY
+// ==========================
+
+const popupMainImage = document.getElementById("popupMainImage");
+
+const popupThumbs = document.querySelectorAll(".popup-thumb");
+
+function changeProductImage(image){
+
+    popupMainImage.src = image.src;
+
+    popupThumbs.forEach(function(item){
+
+        item.classList.remove("active");
+
+    });
+
+    image.classList.add("active");
+
+}
