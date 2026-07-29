@@ -1172,3 +1172,120 @@ font-size:22px;
     transform:rotate(90deg);
 
 }
+/* ===========================
+   POPUP CONTENT
+=========================== */
+
+.popup-content{
+
+    text-align:center;
+
+}
+
+.popup-logo{
+
+    width:90px;
+
+    height:90px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+}
+
+.popup-content h2{
+
+    font-size:38px;
+
+    color:#0f172a;
+
+    margin-bottom:10px;
+
+}
+
+.popup-content h3{
+
+    color:#2563eb;
+
+    margin-bottom:25px;
+
+    font-weight:600;
+
+}
+
+.popup-content p{
+
+    color:#475569;
+
+    line-height:1.9;
+
+    max-width:700px;
+
+    margin:0 auto 35px;
+
+}
+
+.popup-product{
+
+    width:100%;
+
+    max-width:650px;
+
+    border-radius:20px;
+
+    margin:20px auto 35px;
+
+    display:block;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+}
+.popup-list{
+
+    max-width:500px;
+
+    margin:0 auto 40px;
+
+    text-align:left;
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.popup-list li{
+
+    padding:14px 0;
+
+    border-bottom:1px solid #e5e7eb;
+
+    color:#475569;
+
+    font-size:17px;
+
+}
+
+.popup-list li::before{
+
+    content:"✔";
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+    margin-right:12px;
+
+}
+.popup-content .project-btn{
+
+    margin:auto;
+
+    display:inline-block;
+
+}
