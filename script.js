@@ -95,3 +95,34 @@ backToTop.addEventListener("click", () => {
     });
 
 });
+// ==========================
+// SOAP POPUP
+// ==========================
+
+const openSoapPopup = document.getElementById("openSoapPopup");
+const soapPopup = document.getElementById("soapPopup");
+const closePopup = document.querySelector(".close-popup");
+
+openSoapPopup.addEventListener("click", function(e){
+
+    e.preventDefault();
+
+    soapPopup.classList.add("show");
+
+});
+
+closePopup.addEventListener("click", function(){
+
+    soapPopup.classList.remove("show");
+
+});
+
+soapPopup.addEventListener("click", function(e){
+
+    if(e.target === soapPopup){
+
+        soapPopup.classList.remove("show");
+
+    }
+
+});
