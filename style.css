@@ -872,7 +872,13 @@ footer h3{
     color:#cbd5e1;
     margin-bottom:30px;
 }
-
+.footer-message{
+    max-width:650px;
+    margin:20px auto 35px;
+    color:#cbd5e1;
+    line-height:1.8;
+    font-size:17px;
+}
 .footer-links{
     display:flex;
     justify-content:center;
