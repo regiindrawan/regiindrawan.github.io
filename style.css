@@ -163,6 +163,11 @@ nav{
     backdrop-filter: blur(12px);
 
     -webkit-backdrop-filter: blur(12px);
+    transition:
+    padding .35s ease,
+    background .35s ease,
+    box-shadow .35s ease,
+    backdrop-filter .35s ease;
 
     display:flex;
 
