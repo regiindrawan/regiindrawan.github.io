@@ -1088,6 +1088,14 @@ line-height:1.6;
     width:0;
     transition:width 1.5s ease;
 }
+.menu-toggle{
+    display:none;
+    border:none;
+    background:none;
+    cursor:pointer;
+    font-size:24px;
+    color:#111827;
+}
 /* ===== RESPONSIVE ===== */
 
 @media (max-width:768px){
@@ -1099,7 +1107,6 @@ line-height:1.6;
    MOBILE NAVBAR
 =========================== */
 
-@media (max-width:768px){
 
 nav{
 
@@ -1132,22 +1139,8 @@ nav{
 
 }
 .menu-toggle{
-
-    display:none;
-
-    border:none;
-
-    background:none;
     display:block;
-    cursor:pointer;
-
-    font-size:24px;
-
-    color:#111827;
-
 }
-
-
 
 
 nav ul{
