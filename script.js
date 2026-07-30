@@ -48,7 +48,13 @@ const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
 
 window.addEventListener("scroll", () => {
+const navbar = document.querySelector("nav");
 
+if (window.scrollY > 80) {
+    navbar.classList.add("scrolled");
+} else {
+    navbar.classList.remove("scrolled");
+}
     let current = "";
 
     sections.forEach(section => {
