@@ -982,7 +982,9 @@ padding:0 20px;
 }
 
 .stat-card{
-
+text-decoration: none;
+color: inherit;
+display: block;
 background:white;
 
 padding:30px;
