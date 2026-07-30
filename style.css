@@ -191,28 +191,27 @@ nav{
 }
 nav.scrolled{
 
-    top:16px;
+    top:14px;
 
-    width:90%;
+    padding:14px 42px;
 
-    max-width:1100px;
+    width:92%;
 
-    padding:14px 40px;
+    max-width:1120px;
 
-    border-radius:24px;
+    border-radius:999px;
 
-    background:rgba(255,255,255,.38);
+    background:rgba(255,255,255,.55);
 
-    backdrop-filter:blur(30px) saturate(180%);
+    backdrop-filter:blur(22px) saturate(180%);
 
-    -webkit-backdrop-filter:blur(30px) saturate(180%);
+    -webkit-backdrop-filter:blur(22px) saturate(180%);
 
-    border:1px solid rgba(255,255,255,.45);
+    border:1px solid rgba(255,255,255,.35);
 
     box-shadow:
-        0 12px 40px rgba(15,23,42,.10),
-        inset 0 1px 0 rgba(255,255,255,.45);
-position: sticky;
+        0 8px 28px rgba(15,23,42,.10);
+
 }
 
 .logo{
