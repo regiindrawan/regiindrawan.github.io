@@ -81,10 +81,40 @@ border:1px solid #eef2f7;
 
 }
 .card:hover{
-    transform:translateY(-8px) scale(1.01);
-    box-shadow:0 25px 60px rgba(37,99,235,.15);
+
+    transform:translateY(-10px);
+
+    border-color:#2563eb;
+
+    box-shadow:0 25px 60px rgba(37,99,235,.18);
+
+}
+.experience-header h3{
+
+    transition:.3s;
+
 }
 
+.card:hover .experience-header h3{
+
+    color:#2563eb;
+
+}
+.experience-date{
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    padding:8px 16px;
+
+    border-radius:999px;
+
+    font-weight:600;
+
+    font-size:14px;
+
+}
 footer{
 background:#0f172a;
 color:white;
