@@ -147,6 +147,10 @@ function changeProductImage(image){
     image.classList.add("active");
 
 }
+// ==========================
+// PREMIUM SMOOTH SCROLL
+// ==========================
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
     anchor.addEventListener("click", function(e){
@@ -155,17 +159,41 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
         const target = document.querySelector(this.getAttribute("href"));
 
-        if(target){
+        if(!target) return;
 
-            target.scrollIntoView({
+        const targetPosition = target.offsetTop - 80;
+        const startPosition = window.pageYOffset;
 
-                behavior:"smooth",
+        const distance = targetPosition - startPosition;
 
-                block:"start"
+        const duration = 1000;
 
-            });
+        let start = null;
+
+        function animation(currentTime){
+
+            if(start === null) start = currentTime;
+
+            const timeElapsed = currentTime - start;
+
+            const progress = Math.min(timeElapsed / duration, 1);
+
+            const ease =
+                progress < 0.5
+                ? 4 * progress * progress * progress
+                : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+
+            window.scrollTo(0, startPosition + distance * ease);
+
+            if(timeElapsed < duration){
+
+                requestAnimationFrame(animation);
+
+            }
 
         }
+
+        requestAnimationFrame(animation);
 
     });
 
