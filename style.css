@@ -1131,13 +1131,24 @@ nav{
         0 10px 35px rgba(15,23,42,.12);
 
 }
+.menu-toggle{
+
+    display:none;
+
+    border:none;
+
+    background:none;
+    display:block;
+    cursor:pointer;
+
+    font-size:24px;
+
+    color:#111827;
 
 }
-nav{
-    flex-direction:column;
-    gap:18px;
-    padding:18px;
-}
+
+
+
 
 nav ul{
     flex-wrap:wrap;
