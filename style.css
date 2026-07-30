@@ -586,7 +586,7 @@ transition:.3s;
 }
 .project-card:hover .project-image{
 
-    transform:scale(1.02);
+    transform:scale(1.05);
 
 }
 .project-card:hover{
@@ -602,8 +602,13 @@ margin-bottom:15px;
 
 color:#0f172a;
 
+transition:.3s;
 }
+.project-card:hover h3{
 
+color:#2563eb;
+
+}
 .project-card p{
 
 line-height:1.8;
@@ -674,7 +679,11 @@ color:#475569;
 }
 
 .project-btn:hover{
+
     transform:translateY(-3px);
+
+    box-shadow:0 12px 30px rgba(37,99,235,.25);
+
 }
 
 .secondary-btn{
