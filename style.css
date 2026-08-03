@@ -30,6 +30,8 @@ font-size:68px;
 font-weight:700;
 letter-spacing:-2px;
 margin-bottom:18px;
+opacity:0;
+animation:fadeUp .8s ease forwards;
 line-height:1.1;
 }
 
@@ -126,12 +128,16 @@ margin-top:50px;
 font-size:24px;
 font-weight:500;
 color:#cbd5e1;
+opacity:0;
+animation:fadeUp .8s ease .15s forwards;
 margin-bottom:22px;
 letter-spacing:.5px;
 }
 
 .description{
 max-width:760px;
+opacity:0;
+animation:fadeUp .8s ease .3s forwards;
 font-size:20px;
 line-height:1.9;
 margin:0 auto 40px;
@@ -339,7 +345,8 @@ margin-bottom:20px;
     display:flex;
 
     justify-content:center;
-
+opacity:0;
+animation:fadeUp .8s ease .45s forwards;
     gap:18px;
 
     margin-top:42px;
@@ -359,7 +366,8 @@ border:2px solid #2563eb;
 .social-links{
 
 margin-top:42px;
-
+opacity:0;
+animation:fadeUp .8s ease .6s forwards;
 display:flex;
 
 justify-content:center;
@@ -1276,6 +1284,21 @@ font-size:22px;
 .button:hover{
     transform:translateY(-3px);
     box-shadow:0 12px 25px rgba(37,99,235,.30);
+}
+/* ===== HERO ANIMATION ===== */
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(35px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
 }
 /* ===== BACK TO TOP ===== */
 
