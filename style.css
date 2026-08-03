@@ -1606,3 +1606,35 @@ font-size:22px;
     border-color:#2563eb;
 
 }
+/* ===== SECTION DIVIDER ===== */
+
+section{
+
+    position:relative;
+
+}
+
+section:not(:last-of-type)::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:-30px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:140px;
+
+    height:1px;
+
+    background:linear-gradient(
+        to right,
+        transparent,
+        #cbd5e1,
+        transparent
+    );
+
+}
