@@ -66,7 +66,7 @@ color:#0f172a;
 
 .card{
 
-background:white;
+background:rgba(255,255,255,.72);
 
 padding:35px;
 
@@ -78,8 +78,10 @@ box-shadow:0 8px 25px rgba(0,0,0,.08);
 
 transition:all .3s ease;
 
-border:1px solid #eef2f7;
+border:1px solid rgba(255,255,255,.65);
+backdrop-filter:blur(18px);
 
+-webkit-backdrop-filter:blur(18px);
 }
 .card:hover{
 
