@@ -719,13 +719,20 @@ color:#475569;
 }
 
 .experience-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    width:100%;
-    margin-bottom:16px;
-}
 
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    width:100%;
+
+    margin-bottom:16px;
+
+    position:relative;
+
+}
 .experience-date{
     color:#94a3b8;
     font-size:14px;
