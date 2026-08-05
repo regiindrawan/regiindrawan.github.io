@@ -759,6 +759,23 @@ color:#475569;
     margin-top:22px;
 
 }
+.experience-tags span{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:8px 16px;
+
+    border-radius:999px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
 /* ===== PROJECT FEATURES ===== */
 
 .project-features{
