@@ -746,7 +746,19 @@ color:#475569;
     margin-bottom:8px;
     color:#475569;
 }
+/* ===== EXPERIENCE TAGS ===== */
 
+.experience-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-top:22px;
+
+}
 /* ===== PROJECT FEATURES ===== */
 
 .project-features{
